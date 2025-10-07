@@ -1,0 +1,29 @@
+{
+  "name": "reviewexbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/index.js",
+    "test": "cross-env TEST=true node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioSedei/reviewExBackend.git"
+  },
+  "author": "Caio Sedei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioSedei/reviewExBackend/issues"
+  },
+  "homepage": "https://github.com/CaioSedei/reviewExBackend#readme",
+  "dependencies": {
+    "express": "5.1.0",
+    "expresses": "1.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "10.1.0",
+    "jest": "30.2.0"
+  }
+}
